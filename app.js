@@ -4,12 +4,14 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const bodyParser = require("body-parser");
 const helmet = require("helmet");
+const cors = require("cors");
 var favMusic = require("./favoritesMusic.json");
 var favBooks = require("./favoritesBooks.json");
 
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(helmet());
+app.use(cors());
 
 //This app.get method uses the Api to find songs relating to what the user entered
 app.get("/music", (req, res) => {
