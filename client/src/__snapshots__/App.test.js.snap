@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The test works! 1`] = `
+<div>
+  <h1>
+    The Music and eBook Store
+  </h1>
+  <nav>
+    <ul>
+      <li>
+        <a
+          href="#/Home"
+          onClick={[Function]}
+        >
+          <h4>
+            <b>
+              Home
+            </b>
+          </h4>
+        </a>
+      </li>
+      <li>
+        <a
+          href="#/Music"
+          onClick={[Function]}
+        >
+          <h4>
+            <b>
+              Music
+            </b>
+          </h4>
+        </a>
+      </li>
+      <li>
+        <a
+          href="#/Books"
+          onClick={[Function]}
+        >
+          <h4>
+            <b>
+              Books
+            </b>
+          </h4>
+        </a>
+      </li>
+      <li>
+        <a
+          href="#/Favorite"
+          onClick={[Function]}
+        >
+          <h4>
+            <b>
+              Favorites
+            </b>
+          </h4>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div>
+  <h1>
+    E-Books
+  </h1>
+  <input
+    input={true}
+    onChange={[Function]}
+    type="text"
+  />
+   
+  <i
+    class="search-button fa fa-search"
+    onClick={[Function]}
+  >
+     
+     
+    <span
+      class="search-tool-tip"
+    >
+      Search
+    </span>
+  </i>
+</div>
+`;

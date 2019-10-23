@@ -1,0 +1,173 @@
+body {
+    margin: 2%;
+    background-image: url(./backgroundImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    margin-left: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 1%;
+    padding: 1%;
+}
+
+
+/* ------------------------------------- Nav-bar Styling ------------------------------------- */
+
+nav ul h4 {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+nav ul h4::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: skyblue;
+    transition: width .3s;
+}
+
+nav ul h4:hover::after {
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+
+/* ------------------------------------- Input Styling ------------------------------------- */
+
+h2 {
+    margin-left: 1%;
+}
+
+input {
+    margin-left: 1%;
+    border-radius: 3px;
+    border: none;
+}
+
+
+/* ------------------------------------- Button Styling ------------------------------------- */
+
+.search-button {
+    background-color: none;
+    font-size: 24px;
+}
+
+.search-button:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.search-button .search-tool-tip {
+    visibility: hidden;
+    width: 120px;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search-button:hover .search-tool-tip {
+    visibility: visible;
+}
+
+.remove-button {
+    background-color: none;
+    font-size: 24px;
+}
+
+.remove-button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.remove-button .remove-tool-tip {
+    visibility: hidden;
+    width: 120px;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.remove-button:hover .remove-tool-tip {
+    visibility: visible;
+}
+
+.favourite-button {
+    background-color: none;
+    font-size: 24px;
+}
+
+.favourite-button:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.favourite-button .favourite-tool-tip {
+    visibility: hidden;
+    width: 120px;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.favourite-button:hover .favourite-tool-tip {
+    visibility: visible;
+}
+
+
+/* ------------------------------------- Information Div Styling ------------------------------------- */
+
+.book-info {
+    margin: 1%;
+    padding: 1%;
+}
+
+.song-info {
+    margin: 1%;
+    padding: 1%;
+}
+
+.favourite-info {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 1%;
+    padding: 1%;
+}
+
+audio {
+    vertical-align: middle;
+}
+
+.fa-heart {
+    vertical-align: middle;
+}
