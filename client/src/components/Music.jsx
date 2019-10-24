@@ -74,7 +74,11 @@ class Music extends React.Component {
               {sortArr.trackName}
             </h4>
             <img src={sortArr.artworkUrl100} alt="Loading..." />
-            &emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+              <audio controls>
+                <source src={sortArr.previewUrl} type="audio/mpeg" />
+              </audio>
+              &emsp;&emsp;&emsp;
             <i
               onClick={() => {
                 this.favoriteSong(sortArr);
